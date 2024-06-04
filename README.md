@@ -25,7 +25,7 @@ This project creates an Anki deck with tailored interview questions and answers 
 2. Create a virtual environment:
 
     ```sh
-    python3 -m venv myenv
+    python3 -m venv venv
     ```
 
 3. Activate the virtual environment:
@@ -33,13 +33,13 @@ This project creates an Anki deck with tailored interview questions and answers 
     - On macOS/Linux:
 
       ```sh
-      source myenv/bin/activate
+      source venv/bin/activate
       ```
 
     - On Windows:
 
       ```sh
-      myenv\Scripts\activate
+      venv\Scripts\activate
       ```
 
 4. Install the required packages:
